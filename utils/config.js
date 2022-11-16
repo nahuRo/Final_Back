@@ -16,16 +16,3 @@ export const AUTH_TOKEN = process.env.AUTH_TOKEN;
 export const TO_SMS_NUMBER = process.env.TO_SMS_NUMBER;
 export const TO_WSP_NUMBER = process.env.TO_WSP_NUMBER;
 export const WSP_TWILIO_NUMBER = process.env.WSP_TWILIO_NUMBER;
-
-// export const config = {
-// 	DB_URI: "mongodb+srv://agussCoder:agus123@cluster0.ezyymjl.mongodb.net/16voDesafio?retryWrites=true&w=majority",
-// 	SESSION_SECRET: "coderHouse",
-// 	FROM_MAIL: "agussrg80@gmail.com",
-// 	TO_MAIL: "lifetvtone@gmail.com",
-// 	PASS_MAIL: "fdcxfyxyvugppwph",
-// 	accountSid: "AC43f5267cf209586a2028d60f52748eed",
-// 	authToken: "464aeba0108e8fba28cbc70490904d3f",
-// 	toSmsNumber: "+542613867729",
-// 	toWspNumber: "+5492613867729",
-// 	wspTwilioNumber: "+14155238886",
-// };
