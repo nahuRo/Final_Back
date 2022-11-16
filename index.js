@@ -39,7 +39,12 @@ app.use(
 	})
 );
 
-app.use(cors());
+app.use(
+	cors({
+		origin: "*",
+		credentials: true,
+	})
+);
 app.use(express.json()); //midu usa solo este middleware
 app.use(express.urlencoded({ extended: true }));
 

@@ -23,3 +23,15 @@ Content-Type: application/json
     "password": "123"
 }
 
+
+###
+
+### logeo un nuevo postaaaaaaaaaa
+POST https://finalback-production.up.railway.app/Api/user/login
+Content-Type: application/json
+
+{
+    "email": "prueba1@gmail.com",
+    "password": "123"
+}
+
